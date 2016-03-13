@@ -1,6 +1,6 @@
-base-color = #ff8937
+base-color = #f26133
 text-color = #555
-link-color = #ffac5b
+link-color = #f26133
 light-link-color = #fbf9f7
 base-font = "15px/1.5 Helvetica Neue, Arial, sans-serif"
 
@@ -82,7 +82,7 @@ $hnspecial-button
     margin 0
     font-weight 200
 
-    background base-color
+    background base-color !important
     border none
     color light-link-color
     cursor pointer
@@ -520,7 +520,7 @@ html.hnspecial-theme
             // Header
             > tbody
                 > tr:first-child > td
-                    background base-color
+                    background base-color !important
 
                     > table
                         // color lighten(base-color, 70%)
@@ -559,7 +559,7 @@ html.hnspecial-theme
                                     //     text-align center
                                     //     font-size 22px
                                     //     font-weight 200
-                                    //     color base-color
+                                    //     color base-color !important
 
                                     &:hover
                                         text-decoration none
@@ -744,11 +744,11 @@ html.hnspecial-theme
                 color #777 !important
 
         body > center > table > tbody > tr:first-child > td > table
-            // color darken(base-color, 60%)
+            // color darken(base-color  60%)
             font-weight 200
 
             a
-                // color darken(base-color, 70%)
+                // color darken(base-color  70%)
                 font-weight 200
 
             .topsel a
@@ -833,7 +833,7 @@ html.hnspecial-theme
                 left 0
                 width 100%
                 z-index 10 // Must be the topmost element on the page
-                // background base-color
+                // background base-color !important
 
                 > table
                     max-width 900px

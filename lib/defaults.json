@@ -2,15 +2,15 @@
     "settings_version": 9,
     "settings": {
         "visual_theme": true,
-        "high_contrast": false,
-        "gray_visited_links": false,
+        "high_contrast": true,
+        "gray_visited_links": true,
         "infinite_scrolling": true,
-        "open_links_in_new_tabs": false,
+        "open_links_in_new_tabs": true,
         "highlight_links_when_returning": true,
         "accurate_domain_names": true,
         "fold_comments": true,
         "mark_as_read": false,
-        "sticky_header": false,
+        "sticky_header": true,
         "user_tooltips": false
     },
     "requirements": {
